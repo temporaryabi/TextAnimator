@@ -1,0 +1,93 @@
+.purple {
+    color: mediumpurple;
+}
+
+.green {
+    color: chartreuse;
+}
+
+.red { 
+   color: crimson;
+}
+
+.blue{
+    color: mediumturquoise;
+}
+
+.orange {
+    color: darkorange;
+}
+
+.blue, .red, .green, .purple, .square, .circle, .orange {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.square, .circle{
+    color: orchid;
+}
+
+.norm {
+    font-weight: 900;
+    color: hotpink;
+/*    font-size: */
+}
+
+.name, #bubbles{ 
+    font-weight: bolder;
+    color: darkcyan;   
+}
+
+.instructions {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: mediumvioletred;
+    font-weight: bold;
+}
+
+* {
+    font-size: 25px;
+}
+
+
+.animationDone {
+    text-align: center;
+}
+
+.canvas {
+     align-content: center;
+    
+    margin-left: 100px;
+}
+
+.animationCanvas {
+    text-align: center;   
+}
+
+body {
+    background-color: black;
+}
+
+#btn {
+    background-color: cornflowerblue;
+    border: none;
+    color: black;
+    border: 15px;
+    border-radius: 5px;
+    border-color: cornflowerblue;
+}
+
+#btn:hover {
+    background-color: darkturquoise;
+    border-color: darkturquoise;
+}
+
+#btn:active {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
+
+#coolText {
+    border: none;
+    color: darkorchid;
+}
