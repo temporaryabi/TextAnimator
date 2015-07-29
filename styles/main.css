@@ -91,3 +91,8 @@ body {
     border: none;
     color: darkorchid;
 }
+
+.copyright {
+    color: rgba(100, 100, 100, 0.4);
+    font-size: 20px;
+}

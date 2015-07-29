@@ -1,3 +1,15 @@
+
+function myClick() {
+  setTimeout(
+    function() {
+      window.location.reload();
+    }, 75);
+}
+
+
+
+
+
 var color1 = false; //blue
 var color2 = false; //orange
 var color3 = false; //green
@@ -177,7 +189,5 @@ $('.animationDone').click(function() {
     HTMLform.slideToggle();
     HTMLanimation.slideToggle();
     MyLovelyCanvas.slideToggle();
+    myClick();
 });
-
-
-
